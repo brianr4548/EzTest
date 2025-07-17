@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seleniumTests", "seleniumTests.csproj", "{4BCA2826-6007-4AF5-BEEE-A160DFFD9BFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EzTest", "EzTest.csproj", "{4BCA2826-6007-4AF5-BEEE-A160DFFD9BFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

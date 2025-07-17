@@ -1,28 +1,15 @@
 ﻿using System;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using EzTest;
 
 namespace SeleniumTests
 {
-    class Program
+    class playground
     {
-
-        public static void ClickCheckboxes(string checkboxID, IWebDriver driver)
-        {
-            IWebElement checkbox = driver.FindElement(By.Id(checkboxID));
-            checkbox.Click();
-        }
-
-        public static void SelectListItem(string itemID, IWebDriver driver)
-        {
-            IWebElement selectedItem = driver.FindElement(By.Id(itemID));
-            selectedItem.Click();
-
-        }
-
-        //public static void 
         static void Main()
         {
+
 
             // Initiate Webdriver
             IWebDriver driver = new ChromeDriver();
@@ -32,6 +19,8 @@ namespace SeleniumTests
 
             // launch the application
             driver.Navigate().GoToUrl("https://www.tutorialspoint.com/selenium/practice/check-box.php");
+
+            ClickEvents.ClickByID("c_bs_1", driver);
 
 
         }
