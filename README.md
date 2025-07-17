@@ -1,1 +1,1 @@
-# seleniumTests
+# EzTest
