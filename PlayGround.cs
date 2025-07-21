@@ -5,7 +5,7 @@ using EzTest;
 
 namespace SeleniumTests
 {
-    class playground
+    class Playground
     {
         static void Main()
         {
@@ -20,7 +20,15 @@ namespace SeleniumTests
             // launch the application
             driver.Navigate().GoToUrl("https://www.tutorialspoint.com/selenium/practice/check-box.php");
 
-            ClickEvents.ClickByID("c_bs_1", driver);
+            // write code below this line ==================================================================
+
+            ClickEvents.ClickByXpath("//*[@id=\"navMenus\"]/li[1]/a", driver);
+            ClickEvents.TestFieldInput("fullname", driver, "Brian");
+
+
+            
+
+
 
 
         }
