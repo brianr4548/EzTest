@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using EzTest;
@@ -9,10 +9,9 @@ namespace SeleniumTests
     {
         static void Main()
         {
-
-
-            // Initiate Webdriver
+           //create a new instance of the chrome driver//
             IWebDriver driver = new ChromeDriver();
+
 
             // adding an implicit wait of 20 secs
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
